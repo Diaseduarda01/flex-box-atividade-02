@@ -33,7 +33,6 @@ h1 {
     margin: auto;
 }
 
-/* Insira o código abaixo */
 
 .container1 {
     display: flex;
@@ -65,23 +64,4 @@ h1 {
 .container6 {
     display: flex;
     justify-content: space-evenly; /* Distribui os itens com espaçamento igual entre eles */
-}
-
-.container-exercicioB {
-    display: flex;
-    justify-content: space-between; /* Espaço igual entre o primeiro e o último item */
-    align-items: center; /* Alinha verticalmente os itens no centro */
-    width: 100%; /* Ocupa toda a largura da tela */
-    height: 150px; /* Define uma altura fixa para o container */
-    background-color: #d0d3d4; /* Define a cor de fundo */
-    padding: 20px; /* Adiciona um preenchimento ao redor dos itens */
-}
-.container-desafio {
-    display: flex;
-    flex-direction: row-reverse; /* Alinha os itens da direita para a esquerda */
-    justify-content: flex-start; /* Faz com que o último item fique 'grudado' na borda esquerda */
-    width: 100%; /* Ocupa toda a largura da tela */
-    height: 150px; /* Define uma altura fixa */
-    background-color: #f1f1f1; /* Define a cor de fundo */
-    padding: 10px; /* Adiciona um espaçamento interno */
 }
